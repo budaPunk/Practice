@@ -10,6 +10,7 @@ def solution(board):
     print("===============================")
     return board[len(board) - 1][len(board) - 1]
 
+# GOOD
 def construct(board_size, curr_cord, board, prev_dir, price):
     #print(board_size, curr_cord, prev_dir, price)
     #for line in board:
@@ -70,6 +71,7 @@ def construct(board_size, curr_cord, board, prev_dir, price):
                             else:
                                 pass
 
+# NOTGOOD
 def construct2(board_size, curr_cord, curr_board, prev_dir, price):
     #print(board_size, curr_cord, prev_dir, price)
     #for line in curr_board:
