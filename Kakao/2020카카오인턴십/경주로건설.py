@@ -98,7 +98,7 @@ def construct2(board_size, curr_cord, curr_board, prev_dir, price):
                     new_price = price + 100
                 else:
                     new_price = price + 100 + 500
-                prices.append(construct(board_size, new_cord, new_board, dir, new_price))
+                prices.append(construct2(board_size, new_cord, new_board, dir, new_price))
     #print(prices)
     return min(prices)
 
